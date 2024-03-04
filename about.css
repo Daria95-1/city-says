@@ -1,0 +1,242 @@
+.header {
+    margin: 10px 30px;
+}
+
+.breadcrumbs-link {
+    text-decoration: none;
+    color: var(--color-dark);
+    align-items: center;
+}
+
+.breadcrumbs-link:hover {
+    color: var(--color-pink);
+}
+    
+.header-mobil {
+    display: none;
+}
+
+.header-mobil-page {
+    display: none;
+}
+
+.about-project {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-wrap: wrap;
+}
+
+.soc1als-and-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.third-block,
+.team {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.content-team-item {
+    margin: 60px, 0;
+}
+
+.team-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    grid-gap: 50px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-text {
+    width: clamp(180px, 15vw, 288px);
+    gap: 40px;
+}
+
+.item-icon {
+    margin-top: 15px;
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.team-item img {
+    width: clamp(180px, 15vw, 288px);
+    height: clamp(226px, 18.85vw, 362px)
+}
+
+.paragraph-info {
+    max-width: 1280px;
+    margin: 70px auto;
+}
+
+.partners {
+    max-width: 1280px;
+    margin: 70px auto;
+}
+
+.partners-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px 0;
+    grid-gap: 60px;
+}
+
+.partners-item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.partners-list > :nth-child(1),
+.partners-list > :nth-child(4) {
+    display: flex;
+    justify-content: start;
+}
+
+.partners-list > :nth-child(3),
+.partners-list > :nth-last-child(1) {
+    display: flex;
+    justify-content: end;
+}
+
+.partners-list > :nth-child(2),
+.partners-list > :nth-child(5) {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1330px) {
+    .about-project,
+    .team,
+    .paragraph-info,
+    .partners {
+        padding: 20px 50px;
+    }
+
+    .team-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: start;
+    }
+
+    .team-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .item-icon {
+        margin-top: 30px;
+    }
+
+    .paragraph-info,
+    .partners {
+        margin: 40px auto;
+        padding: 0 50px;
+    }
+
+    .partners-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partners-list > :nth-child(1),
+    .partners-list > :nth-child(3),
+    .partners-list > :nth-child(5) {
+        justify-content: start;
+    }
+
+    .partners-list > :nth-child(2),
+    .partners-list > :nth-child(4),
+    .partners-list > :nth-last-child(1) {
+        justify-content: end;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header-mobil-page {
+        display: block;
+        
+    }
+
+    .about-project,
+    .header-mobil-page,
+    .team,
+    .paragraph-info,
+    .partners {
+        padding: 10px 30px;
+    }
+
+    .content-team {
+        text-align: left;
+    }
+
+    .content-team-item {
+        margin: 30px auto;
+    }
+
+    .team-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .paragraph-info,
+    .partners {
+        text-align: left;
+        margin: 0;
+    }
+
+    .team,
+    .paragraph-info,
+    .partners {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partners-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partners-list > :nth-child(1),
+    .partners-list > :nth-child(3),
+    .partners-list > :nth-child(5) {
+        justify-content: left;
+        gap: 40px;
+    }
+
+    .partners-list > :nth-child(2),
+    .partners-list > :nth-child(4),
+    .partners-list > :nth-last-child(1) {
+        justify-content: right;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 490px) {
+    .team-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .partners-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .partners-list > :nth-child(1),
+    .partners-list > :nth-child(2),
+    .partners-list > :nth-child(3),
+    .partners-list > :nth-child(4),
+    .partners-list > :nth-child(5),
+    .partners-list > :nth-last-child(1) {
+        justify-content: left;
+        gap: 20px;
+    }
+}

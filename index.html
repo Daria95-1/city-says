@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class='header'>
+        <div class='first-level'>
+            <div class='logo'>
+                <a href="index.html"class="header-logo">
+                    <img
+                        class="header-logo-image"
+                        src="./img/header-logo.svg"
+                        alt="Logo"
+                        width='180'
+                        height='65'
+                        loading='lazy'
+                    >
+                </a>
+            </div>
+            <div class='search-and-language'>
+                <div class='search'>
+                    <img
+                        class='icon-search'
+                        src="./icons/search.svg"
+                        alt="icon of search"
+                        width='18' height='18' loading='lazy'
+                    >
+                </div>
+                <div class='language'>
+                    <p class='language-ru'>Ru</p>
+                    <p class='language-en'>En</p>
+                </div>
+            </div>
+        </div>
+
+        <div class='second-level'>
+            <nav class="header-menu">
+            <ul class="header-menu-list">
+                <li class="header-menu-item icon">
+                    <a href="#second-block" class="header-menu-link">Уличное искусство</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="./direction.html" class="header-menu-link">Маршруты</a>
+                </li>
+                <li class="header-menu-item icon">
+                    <a href="#fifth-block", class="header-menu-link">Новости</a>
+                </li>
+
+                <li class="header-menu-item">
+                    <a href="./about.html" class="header-menu-link">О нас</a>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header mobil -->
+    <header class='header-mobil'>
+        <div class='container-mobil'>
+            <div class='logo-mobil'>
+                <a href="index.html"class="header-logo-mobil">
+                    <img
+                        class="header-logo-image-mobil"
+                        src="./img/header-logo.svg"
+                        alt="Logo"
+                        width='92'
+                        height='33'
+                        loading='lazy'
+                    >
+                </a>
+            </div>
+
+            <div class='language-mobil'>
+                <p class='language-ru-mobil'>Ru</p>
+                <p class='language-en-mobil'>En</p>
+            </div>
+
+            <div class='burger'>
+                <button
+                    class="header-burger-button"
+                    type='button'
+                    title='Open menu'
+                >
+                    <span class="header-burger-button-line"></span>
+                    <span class="header-burger-button-line"></span>
+                    <span class="header-burger-button-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- First block -->
+        <section class='first-block'>
+            <div class='content-first-block'>
+                <div class='content-item'>
+                    <h2 class='main-title title-big'>Арт искусство премиум класса</h2>
+
+                    <p class='description-p section-description'>Разрабатываем и воплощаем проекты сооружений всех классов. Фиксируем стоимость до начала работ.</p>
+
+                    <!-- <button class='button'>Подробнее о проекте</button> -->
+                    <a href='./about.html' class='button'>
+                        Подробнее
+                    </a>
+                    
+                    <div class="banner-pagination">
+                        <ul class="banner-pagination-list">
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button is-current"
+                                    type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class='content-img'>
+                    <img class='main-img'
+                        src="./img/main-img.png"
+                        alt="Main image"
+                        width='940' height='629' loading='lazy'
+                    >
+                </div>
+            </div>
+        </section>
+
+    <!-- First block-mobil -->
+        <section class='first-block-mobil'>
+            <div class='content-first-block'>
+                <div class='without-pagination'>
+                    <h2 class='main-title title-big'>Арт искусство премиум класса</h2>
+
+                    <img class='main-img'
+                    src="./img/main-img.png"
+                    alt="Main image"
+                    width='940' height='629' loading='lazy'
+                    >
+
+                    <p class='description-p section-description'>Разрабатываем и воплощаем проекты сооружений всех классов. Фиксируем стоимость до начала работ.</p>
+                    
+                    <!-- <button class='button'>Подробнее о проекте</button> -->
+                    <a href='./street-art.html' class='button'>
+                        Подробнее
+                    </a>
+                </div>
+                
+                <div class="banner-pagination">
+                    <ul class="banner-pagination-list">
+                        <li class="banner-pagination-item">
+                            <button
+                                class="banner-pagination-button is-current"
+                                type='button'>
+                            </button>
+                        </li>
+                        <li class="banner-pagination-item">
+                            <button
+                                class="banner-pagination-button" type='button'>
+                            </button>
+                        </li>
+                        <li class="banner-pagination-item">
+                            <button
+                                class="banner-pagination-button" type='button'>
+                            </button>
+                        </li>
+                        <li class="banner-pagination-item">
+                            <button
+                                class="banner-pagination-button" type='button'>
+                            </button>
+                        </li>
+                        <li class="banner-pagination-item">
+                            <button
+                                class="banner-pagination-button" type='button'>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    <!-- Second block -->
+        <section class='second-block' id='second-block'>
+            <div class='content-second-block'>
+                <img 
+                    class='image-block-2'
+                    src="./img/img-2.png"
+                    alt="A girl and a boy sit with their backs to each other"
+                    width='620' height='472' loading='lazy'
+                >
+
+                <div class='content-item-second-block'>
+                    <h2 class='second-block-title title-medium'>О проекте</h2>
+
+                    <p class='description-p-2 section-description'>Занимаемся поставками инженерного оборудования, организуем их проектирование, строительство и реконструкцию. Разрабатываем и воплощаем проекты сооружений всех классов. Фиксируем стоимость до начала работ. Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+
+                    <!-- <button class='button'>Подробнее о проекте</button> -->
+                    <a href='./about.html' class='button'>
+                        Подробнее о проекте
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Second block mobil -->
+        <section class='second-block-mobil'>
+            <div class='content-second-block-mobil'>
+                <h2 class='second-block-title title-medium'>О проекте</h2>
+
+                <img 
+                    class='image-block-2'
+                    src="./img/img-2.png"
+                    alt="A girl and a boy sit with their backs to each other"
+                    width='620' height='472' loading='lazy'
+                >
+
+                <p class='description-p-2 section-description'>Занимаемся поставками инженерного оборудования, организуем их проектирование, строительство и реконструкцию. Разрабатываем и воплощаем проекты сооружений всех классов. Фиксируем стоимость до начала работ. Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+
+                <button class='button'>Подробнее о проекте</button>
+
+                <h2 class='third-block-title title-first-medium'>Архив работ</h2>
+            </div>
+        </section>
+
+    <!-- Third block -->
+        <section class='third-block grid-block' id='third-block'>
+            <div class='content-third-block'>
+                <h2 class='third-block-title title-first-medium'>Архив работ</h2>
+
+                <div class='card'>
+                    <ul class='card-list'>
+                        <li class='card-list-item'>
+                            <img
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-list-item'>
+                            <img
+                                src="./img/2.png"
+                                alt="Graffiti on the wall in the form of a man"
+                                width='400' height='350' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>Dikey & Shipa 2018. Мечтатели</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-list-item'>
+                            <img
+                                src="./img/3.png"
+                                alt="Graffiti on the wall in the form of cartoon characters in street clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='pagination-and-button'>
+                    <div class="banner-pagination">
+                        <ul class="banner-pagination-list">
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button is-current"
+                                    type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class='button center-button'>Весь архив</button>
+                </div>
+            </div>
+        </section>
+
+    <!-- Third block-mobil -->
+        <section class='third-block-mobil'>
+            <div class='content-third-block'>
+                <div class='card-mobil'>
+                    <ul class='card-list-mobil container-wide'>
+                        <li class='card-item-mobil'>
+                            <img
+                                class='card-img'
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-item-mobil'>
+                            <img
+                                class='card-img'
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-item-mobil'>
+                            <img
+                                class='card-img'
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='pagination-and-button'>
+                    <button class='button center-button'>Весь архив</button>
+                </div>
+                </div>
+
+        </section>
+
+    <!-- Fourth block -->
+        <section class='fourth-block'>
+            <div class='content-fourth-block'>
+                <h2 class='fourth-block-title title-first-medium'>Маршруты</h2>
+
+                <div class='direction'>
+                    <ul class='direction-list'>
+                        <li class='direction-list-item-1'>
+                            <div class='direction-item'>
+                                <h3 class='title-direction'>Улица Бадаева, Санкт-Петербург</h3>
+                                <button class='direction-button'>Текст</button>
+                            </div>
+                        </li>
+
+                        <li class='direction-list-item-2'>
+                            <div class='direction-item'>
+                                <h3 class='title-direction'>Улица Бадаева, Санкт-Петербург</h3>
+                                <button class='direction-button'>Текст</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='pagination-and-button'>
+                    <div class="banner-pagination">
+                        <ul class="banner-pagination-list">
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button is-current"
+                                    type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class='button center-button'>Все прогулки</button>
+                </div>
+            </div>
+        </section>
+
+    <!-- Fourth block-mobil -->
+        <section class='fourth-block-mobil'>
+            <div class='content-fourth-block'>
+                <h2 class='fourth-block-title title-first-medium'>Маршруты</h2>
+
+                <div class='direction'>
+                    <ul class='direction-list'>
+                        <li class='direction-list-item-1'>
+                            <div class='direction-item'>
+                                <h3 class='title-direction'>Улица Бадаева, Санкт-Петербург</h3>
+                                <button class='direction-button'>Текст</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='pagination-and-button'>
+                    <div class="banner-pagination">
+                        <ul class="banner-pagination-list">
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button is-current"
+                                    type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class='button center-button'>Весь архив</button>
+                </div>
+
+                <h2 class='third-block-title title-first-medium'>Новости</h2>
+            </div>
+        </section>
+
+    <!-- Fifth block -->
+        <section class='fifth-block' id='fifth-block'>
+            <div class='content-fifth-block'>
+                <h2 class='fifth-block-title title-first-medium'>Новости</h2>
+
+                <div class='card'>
+                    <ul class='card-list'>
+                        <li class='card-list-item'>
+                            <img
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-list-item'>
+                            <img
+                                src="./img/2.png"
+                                alt="Graffiti on the wall in the form of a man"
+                                width='400' height='350' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>Dikey & Shipa 2018. Мечтатели</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-list-item'>
+                            <img
+                                src="./img/3.png"
+                                alt="Graffiti on the wall in the form of cartoon characters in street clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='pagination-and-button'>
+                    <div class="banner-pagination">
+                        <ul class="banner-pagination-list">
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button is-current"
+                                    type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                            <li class="banner-pagination-item">
+                                <button
+                                    class="banner-pagination-button" type='button'>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class='button center-button'>Весь архив</button>
+                </div>
+            </div>
+        </section>
+
+    <!-- Fifth block-mobil -->
+        <section class='fifth-block-mobil'>
+            <div class='content-fifth-block'>
+                <div class='card-mobil'>
+                    <ul class='card-list-mobil container-wide'>
+                        <li class='card-item-mobil'>
+                            <img
+                                class='card-img'
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-item-mobil'>
+                            <img
+                                class='card-img'
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+
+                        <li class='card-item-mobil'>
+                            <img
+                                class='card-img'
+                                src="./img/1.png"
+                                alt="Graffiti on the wall in the form of a duck in clothes"
+                                width='400' height='460' loading='lazy'
+                            >
+                            <div class='card-description'>
+                                <h3 class='card-title title-small'>2021 Объект 32 ФАН</h3>
+                                <p class='card-text'>Наше преимущество — утонченный стиль, простота в эксплуатации, долговечность. Практично и со вкусом строим экономичные в эксплуатации системы прудов на всю жизнь.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class='pagination-and-button'>
+                    <button class='button center-button'>Весь архив</button>
+                </div>
+                </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class='footer'>
+        <div class='footer-container'>
+            <div class='footer-first-level'>
+
+                <div class='footer-column-first'>
+                    <div class='logo-footer'>
+                        <a href="index.html"class="footer-logo">
+                            <img
+                                class="header-logo-image"
+                                src="./img/footer-logo.svg"
+                                alt="Logo"
+                                width='147' height='53' loading='lazy'
+                            >
+                        </a>
+                    </div>
+
+                    <p class='footer-text'>Онлайн-архив и исследовательский проект, посвященный уличной культуре Архангельска</p>
+
+                    <button class='button yellow-button'>
+                        Задонатить на проект
+                    </button>
+
+                    <ul class="footer-soc1als-list">
+                            <li class="footer-soc1als-item">
+                                <a class="footer-soc1als-link" href="/" target="_blank">
+                                    <img 
+                                        class='social-icon'
+                                        src="./icons/telegram.svg" alt="insta-icon" width="45" height="45" loading="lazy">
+                                </a>
+                            </li>
+
+                            <li class="footer-soc1als-item">
+                                <a class="footer-soc1als-link" href="/" target="_blank">
+                                    <img 
+                                        class='social-icon'
+                                        src="./icons/vk.svg" alt="insta-icon" width="45" height="45" loading="lazy">
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a class="footer-soc1als-link" href="/" target="_blank">
+                                    <img 
+                                        class='social-icon'
+                                        src="./icons/email.svg" alt="vk-icon" width="45" height="45" loading="lazy">
+                                </a>
+                            </li>
+                    </ul>
+
+                </div>
+
+                <div class='footer-column-second'>
+                    <a class='footer-title' href="./street-art.html">Уличное искусство</a>
+
+                    <a class='footer-subtitle' href="./street/archive.html">Архив работ</a>
+                    <a class='footer-subtitle' href="./street/artists.html">Хужожники</a>
+                    <a class='footer-subtitle' href="./street/video.html">Видео</a>
+                    <a class='footer-subtitle' href="./street/research.html">Исследование</a>
+                    <a class='footer-subtitle' href="./street/personal_archives.html">Личные архивы</a>
+                </div>
+
+                <div class='footer-column-third'>
+                    <a class='footer-title' href="./news.html">Новости</a>
+
+                    <a class='footer-subtitle' href="news.html">Новости</a>
+                    <a class='footer-subtitle' href="./news/afisha.html">Афиша</a>
+                </div>
+
+                <div class='footer-column-fourth'>
+                    <a class='footer-title' href="./about.html">О нас</a>
+                </div>
+
+                <div class='footer-column-fifth'>
+                    <a class='footer-title' href="./direction.html">Маршруты</a>
+                </div>
+
+            </div>
+
+            <div class='footer-second-level'>
+                <p>2022 © CitySays. Все права защищены.</p>
+
+                <div class='other'>
+                    <p>Авторские права</p>
+                    <p>Политика конфиденциальности</p>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Footer-mobil -->
+    <footer class='footer-mobil'>
+        <div class='footer-container-mobil'>
+                <div class='footer-first-block'>
+                    <div class='logo-footer'>
+                        <a href="index.html"class="footer-logo">
+                            <img
+                                class="header-logo-image"
+                                src="./img/footer-logo.svg"
+                                alt="Logo"
+                                width='147' height='53' loading='lazy'
+                            >
+                        </a>
+                    </div>
+
+                    <p class='footer-text'>Онлайн-архив и исследовательский проект, посвященный уличной культуре Архангельска</p>
+
+                    <button class='button yellow-button'>
+                        Задонатить на проект
+                    </button>
+
+                    <ul class="footer-soc1als-list">
+                            <li class="footer-soc1als-item">
+                                <a class="footer-soc1als-link" href="/" target="_blank">
+                                    <img 
+                                        class='social-icon'
+                                        src="./icons/telegram.svg" alt="insta-icon" width="45" height="45" loading="lazy">
+                                </a>
+                            </li>
+
+                            <li class="footer-soc1als-item">
+                                <a class="footer-soc1als-link" href="/" target="_blank">
+                                    <img 
+                                        class='social-icon'
+                                        src="./icons/vk.svg" alt="insta-icon" width="45" height="45" loading="lazy">
+                                </a>
+                            </li>
+                            <li class="footer-soc1als-item">
+                                <a class="footer-soc1als-link" href="/" target="_blank">
+                                    <img 
+                                        class='social-icon'
+                                        src="./icons/email.svg" alt="vk-icon" width="45" height="45" loading="lazy">
+                                </a>
+                            </li>
+                    </ul>
+
+                </div>
+
+                <div class='footer-second-block'>
+                    <div class='first-column'>
+                        <a class='footer-title' href="./street-art.html">Уличное искусство</a>
+                        <a class='footer-subtitle' href="./street/archive.html">Архив работ</a>
+                        <a class='footer-subtitle' href="./street/artists.html">Хужожники</a>
+                        <a class='footer-subtitle' href="./street/video.html">Видео</a>
+                        <a class='footer-subtitle' href="./street/research.html">Исследование</a>
+                        <a class='footer-subtitle' href="./street/personal_archives.html">Личные архивы</a>
+                    </div>
+
+                    <div class='second-column'>
+                        <a class='footer-title' href="./news.html">Новости</a>
+                        <a class='footer-subtitle' href="news.html">Новости</a>
+                        <a class='footer-subtitle' href="./news/afisha.html">Афиша</a>
+
+                        <a class='footer-title' href="./about.html">О нас</a>
+
+                        <a class='footer-title' href="./direction.html">Маршруты</a>
+                    </div>
+                </div>
+
+                <div class='footer-third-block'>
+                    <p>2022 © CitySays. Все права защищены.</p>
+                    <p>Авторские права</p>
+                    <p>Политика конфиденциальности</p>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
